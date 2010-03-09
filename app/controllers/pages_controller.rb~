@@ -1,4 +1,4 @@
-class PagesController < ApplicationController
+cclass PagesController < ApplicationController
   def home
 	@title = "Home"
   end
