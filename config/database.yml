@@ -23,15 +23,15 @@
 
 development:
   adapter: mysql
-  #database: openmrs_development
-  database: openmrs_spine
-  username: spine
-  password: spinetest
+  
+  database: rails_test
+  username: test
+  password: test
   host: localhost
 
 test:
   adapter: mysql
-  database: openmrs_test
-  username: root
-  password: 
+  database: rails_test
+  username: test
+  password: test
   host: localhost
